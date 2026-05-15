@@ -1,0 +1,66 @@
+package store
+
+import "backend/models"
+
+var SearchDropdown = []models.SearchDropdownGroup{
+	{
+		ID: "filters",
+		Items: []models.SearchDropdownItem{
+			{Text: "🍦 Cold now", Tooltip: "Temprature<20c "},
+			{Text: "🌤️ Mild now", Tooltip: "Temprature<20c "},
+			{Text: "☀️ Warm now", Tooltip: "Temprature<20c "},
+			{Text: "💵 <US$1K/mo", Tooltip: "Cost < 1k "},
+			{Text: "💵 <US$2K/mo", Tooltip: "Cost < 2k "},
+			{Text: "💵 <US$3K/mo", Tooltip: "Cost < 3k "},
+			{Text: "👮 Safe", Tooltip: "High safety "},
+			{Text: "📡 Fast internet", Tooltip: "Internet > 10mbps "},
+			{Text: "💨 Clean air now", Tooltip: "AQI < 50 "},
+			{Text: "👍 Liked by members", Tooltip: "Member approval "},
+			{Text: "🔥 Popular now", Tooltip: "Trending "},
+			{Text: "📈 Growing in nomads", Tooltip: "Fast growth "},
+			{Text: "🏅 Top ranked", Tooltip: "Overall score "},
+			{Text: "💎 Hidden gem", Tooltip: "Less crowded "},
+			{Text: "✨ You haven't been", Tooltip: "New places "},
+		},
+	},
+	{
+		ID: "regions",
+		Items: []models.SearchDropdownItem{
+			{Text: "✨ For you", Tooltip: "Recommendations "},
+			{Text: "🇰🇭 Near Cambodia", Tooltip: "Regional "},
+			{Text: "🌎 North America", Tooltip: "Continents "},
+			{Text: "💃 Latin America", Tooltip: "Continents "},
+			{Text: "🇪🇺 Europe", Tooltip: "Continents "},
+			{Text: "🌍 Africa", Tooltip: "Continents "},
+			{Text: "🕌 Middle East", Tooltip: "Continents "},
+			{Text: "⛩️ Asia", Tooltip: "Continents "},
+			{Text: "🏄 Oceania", Tooltip: "Continents "},
+			{Text: "🛰️ Space", Tooltip: "Continents "},
+			{Text: "🇺🇸 United States", Tooltip: "Countries "},
+			{Text: "🏝️ Caribbean", Tooltip: "Regions "},
+			{Text: "🇪🇺 European Union", Tooltip: "Unions "},
+			{Text: "🇪🇺 Not in Schengen", Tooltip: "Schengen area "},
+			{Text: "🤝 Easy to make friends", Tooltip: "Social "},
+		},
+	},
+	{
+		ID: "dates",
+		Items: []models.SearchDropdownItem{
+			{Text: "❤️ Great for dating", Tooltip: "Social "},
+			{Text: "☃️ In the winter", Tooltip: "Seasonal "},
+			{Text: "♻️ All year round", Tooltip: "Seasonal "},
+			{Text: "📅 Jan", Tooltip: "Months "},
+			{Text: "📅 Feb", Tooltip: "Months "},
+			{Text: "📅 Mar", Tooltip: "Months "},
+			{Text: "📅 Apr", Tooltip: "Months "},
+			{Text: "📅 May", Tooltip: "Months "},
+			{Text: "📅 Jun", Tooltip: "Months "},
+			{Text: "📅 Jul", Tooltip: "Months "},
+			{Text: "📅 Aug", Tooltip: "Months "},
+			{Text: "📅 Sep", Tooltip: "Months "},
+			{Text: "📅 Oct", Tooltip: "Months "},
+			{Text: "📅 Nov", Tooltip: "Months "},
+			{Text: "📅 Dec", Tooltip: "Months "},
+		},
+	},
+}
